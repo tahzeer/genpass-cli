@@ -1,5 +1,9 @@
 # GenPass CLI
 
+[![Build Status](https://github.com/tahzeer/genpass-cli/actions/workflows/test.yml/badge.svg?branch=main)](https://github.com/tahzeer/genpass-cli/actions/workflows/test.yml?query=branch%3Amain)
+[![codecov](https://codecov.io/gh/tahzeer/genpass-cli/branch/main/graph/badge.svg)](https://codecov.io/gh/tahzeer/genpass-cli)
+
+
 A simple yet powerful command-line password generator.
 
 ## Features
