@@ -22,7 +22,7 @@ def test_password_characteristics():
     has_special = any(not c.isalnum() for c in password)
     
     assert has_upper
-    assert has_lower
+    assert has_lower, "Password does not contain lowercase letter"
     assert has_digit, "Password does not contain digit"
     assert has_special ,"Password does not contain special character"
 
