@@ -24,7 +24,7 @@ def test_password_characteristics():
     assert has_upper
     assert has_lower
     assert has_digit
-    assert has_special
+    assert has_special ,"Password does not contain special character"
 
 def test_password_no_special():
     """Test password generation without special characters"""
